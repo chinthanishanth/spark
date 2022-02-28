@@ -1,0 +1,55 @@
+{
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "editor.fontSize": 16,
+    "workbench.settings.openDefaultSettings": true,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontWeight": "600",
+    "editor.formatOnSave": true,
+    "editor.hover.sticky": false,
+    // "editor.fontWeight": "bold",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.showExecutionMessage": false,
+    "code-runner.clearPreviousOutput": true,
+    "workbench.editor.enablePreview": false,
+    "remote.SSH.showLoginTerminal": true,
+    //"python.defaultInterpreterPath": "C:\\ProgramData\\Anaconda3\\pythonw.exe",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--ignore",
+        "E402"
+    ],
+    "debug.inlineValues": true,
+    "editor.renderWhitespace": "boundary",
+    "files.autoSaveDelay": 1000,
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "newUntitledFile",
+    "bracket-pair-colorizer-2.colors": [
+        "#ECF0F1",
+        "#58D68D",
+        "#2E86C1",
+        "#D68910",
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#7cb342",
+    "material-icon-theme.folders.theme": "classic",
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.analysis.diagnosticMode": "workspace", // add this line to 
+    // Anancoda python terminal for vscode on windows
+    "terminal.integrated.profiles.windows": {
+        "Conda": {
+            "path": "C:\\windows\\System32\\cmd.exe",
+            "args": [
+                "/K",
+                "C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3"
+            ],
+            "icon": "squirrel"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Conda"
+}
